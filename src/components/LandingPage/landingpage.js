@@ -18,13 +18,14 @@ export default function Landing() {
         <div className="banner-text">
 
             <h1>Full Stack Web Developer</h1>
+            <h2>Sound Engineer</h2>
             <hr />
             <p className="skills">React | React Native | Javascript | MongoDB | HTML/CSS | Node.js</p>
             <div className="social-links">
-            <a href='github.com' target="_blank">
+            <a href='https://github.com/tverdone10' target="_blank">
             <i className="fab fa-github"/>
             </a>
-            <a>
+            <a href='https://www.linkedin.com/in/thomas-verdone/' target="_blank">
             <i class="fab fa-linkedin"></i>
             </a>
             </div>

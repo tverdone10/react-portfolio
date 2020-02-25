@@ -31,6 +31,7 @@ function App() {
         </Header>
         <Drawer title="Navigation">
             <Navigation>
+                <a href="/">Home <i class="fas fa-home"></i></a>
                 <a href="/Resume">Resume <i class="fas fa-book-open"></i></a>
                 <a href="/Websites">Websites <i class="fas fa-globe"></i></a>
                 <a href="/Audio-Books">Audio Books <i class="fab fa-audible"></i></a>
