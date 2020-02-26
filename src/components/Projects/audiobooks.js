@@ -222,13 +222,7 @@ export default class Audiobooks extends Component {
             </div>
         </div>
       );
-    } else if (this.state.activeTab === 2) {
-      return (
-        <div>
-          <h1>Audiobook Stuff</h1>
-        </div>
-      );
-    }
+    } 
   }
 
   render() {
@@ -239,8 +233,8 @@ export default class Audiobooks extends Component {
           onChange={tabId => this.setState({ activeTab: tabId })}
           ripple
         >
-          <Tab  style={{color:'white'}}>Web Development</Tab>
-          <Tab  style={{color:'white'}}>Audio Books</Tab>
+          <Tab  style={{color:'white'}}>Web Development <i class="fas fa-globe"></i></Tab>
+          <Tab  style={{color:'white'}}>Audio Books <i class="fab fa-audible"></i></Tab>
 
         </Tabs>
 
