@@ -27,7 +27,9 @@ export default class Audiobooks extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
+          <p className="projects-description">Full Stack dev</p>
           <div className="projects-grid">
+
             {/* CARD 1 */}
             <Card
               className="card-one"
