@@ -27,7 +27,7 @@ export default class Audiobooks extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <p className="projects-description">Full Stack dev</p>
+          <p className="projects-description">Full Stack Web Development</p>
           <div className="projects-grid">
 
             {/* CARD 1 */}
@@ -54,8 +54,8 @@ export default class Audiobooks extends Component {
                 stack.
               </CardText>
               <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
+                <Button><a href="https://github.com/tverdone10/Bobs-Big-Break-Application/tree/master/create-react-express-jwt">Github</a></Button>
+                <Button><a href="https://bobs-big-break.herokuapp.com/signup">Deployed</a></Button>
               </CardActions>
               <CardMenu style={{ color: "grey" }}>
                 <IconButton name="share" />
@@ -83,8 +83,7 @@ export default class Audiobooks extends Component {
                 Ruya is a tool used to compare historical stock data. This tool can generate a graph to compare any two stocks over whatever period of time you wish from the year 2000 until today. (Access Code: 'spidre')
               </CardText>
               <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
+                <Button> <a href="http://ruya-world.herokuapp.com/">Deployed</a></Button>
               </CardActions>
             </Card>
 
@@ -105,8 +104,8 @@ export default class Audiobooks extends Component {
               </CardTitle>
               <CardText>This is a note taking app using an Express server.</CardText>
               <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
+                <Button> <a href="https://github.com/tverdone10/Note-Taker">Github</a></Button>
+                <Button> <a href="https://note-taker-expressjs.herokuapp.com/">Deployed </a></Button>
               </CardActions>
             </Card>
 
@@ -138,92 +137,92 @@ export default class Audiobooks extends Component {
           </div>
         </div>
       );
-    } else if (this.state.activeTab === 1) {
-      return (
-        <div>
-          <p className="projects-description">Independently produced hundreds of Audio Books for companies such as Tantor Audio, Recorded Books, Highbridge Audio, Bee Audio, and many more.</p>
-           <div className="projects-grid">
-            <Card
-              className="card-one"
-              shadow={5}
-              style={{ minWidth: "450", margin: "auto" }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  textShadow: "1px 1px white",
-                  height: "176px",
-                  backgroundImage: `url(${BobHead})`,
-                  backgroundPosition: "center",
-                  backgroundRepeat: 'no-repeat'
-                }}
-              >
-                Bob's Big Break
-              </CardTitle>
-              <CardText>
-                Bob's Big Break is an incremental clicker game about making
-                money and buying stuff. This project was built using a full MERN
-                stack.
-              </CardText>
-              <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
-              </CardActions>
-              <CardMenu style={{ color: "grey" }}>
-                <IconButton name="share" />
-              </CardMenu>
-            </Card>
+    // } else if (this.state.activeTab === 1) {
+    //   return (
+    //     <div>
+    //       <p className="projects-description">Independently produced hundreds of Audio Books for companies such as Tantor Audio, Recorded Books, Highbridge Audio, Bee Audio, and many more.</p>
+    //        <div className="projects-grid">
+    //         <Card
+    //           className="card-one"
+    //           shadow={5}
+    //           style={{ minWidth: "450", margin: "auto" }}
+    //         >
+    //           <CardTitle
+    //             style={{
+    //               color: "black",
+    //               textShadow: "1px 1px white",
+    //               height: "176px",
+    //               backgroundImage: `url(${BobHead})`,
+    //               backgroundPosition: "center",
+    //               backgroundRepeat: 'no-repeat'
+    //             }}
+    //           >
+    //             Bob's Big Break
+    //           </CardTitle>
+    //           <CardText>
+    //             Bob's Big Break is an incremental clicker game about making
+    //             money and buying stuff. This project was built using a full MERN
+    //             stack.
+    //           </CardText>
+    //           <CardActions border>
+    //             <Button>Github</Button>
+    //             <Button>Deployed</Button>
+    //           </CardActions>
+    //           <CardMenu style={{ color: "grey" }}>
+    //             <IconButton name="share" />
+    //           </CardMenu>
+    //         </Card>
 
-            <Card
-              shadow={5}
-              style={{ minWidth: "450", margin: "auto" }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  textShadow: "2px 1px grey",
-                  height: "176px",
-                  backgroundColor: '#E9E9E7',
-                  backgroundImage: `url(${Ruya})`,
-                  backgroundPosition: "center",
-                  backgroundRepeat: 'no-repeat'
-                }}
-              >
-                Ruya
-              </CardTitle>
-              <CardText>
-                Ruya is a tool used to compare historical stock data. This tool can generate a graph to compare any two stocks over whatever period of time you wish from the year 2000 until today. (Access Code: 'spidre')
-              </CardText>
-              <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
-              </CardActions>
-            </Card>
+    //         <Card
+    //           shadow={5}
+    //           style={{ minWidth: "450", margin: "auto" }}
+    //         >
+    //           <CardTitle
+    //             style={{
+    //               color: "black",
+    //               textShadow: "2px 1px grey",
+    //               height: "176px",
+    //               backgroundColor: '#E9E9E7',
+    //               backgroundImage: `url(${Ruya})`,
+    //               backgroundPosition: "center",
+    //               backgroundRepeat: 'no-repeat'
+    //             }}
+    //           >
+    //             Ruya
+    //           </CardTitle>
+    //           <CardText>
+    //             Ruya is a tool used to compare historical stock data. This tool can generate a graph to compare any two stocks over whatever period of time you wish from the year 2000 until today. (Access Code: 'spidre')
+    //           </CardText>
+    //           <CardActions border>
+    //             <Button>Github</Button>
+    //             <Button>Deployed</Button>
+    //           </CardActions>
+    //         </Card>
 
-            <Card
-              shadow={5}
-              style={{ minWidth: "450", margin: "auto" }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  textShadow: "2px 1px white",
-                  height: "176px",
-                  backgroundImage: `url(${Notes})`,
-                  backgroundPosition: "cover"
-                }}
-              >
-                Express Note Taker
-              </CardTitle>
-              <CardText>This is a note taking app using an Express server.</CardText>
-              <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
-              </CardActions>
-            </Card>
-            </div>
-        </div>
-      );
+    //         <Card
+    //           shadow={5}
+    //           style={{ minWidth: "450", margin: "auto" }}
+    //         >
+    //           <CardTitle
+    //             style={{
+    //               color: "black",
+    //               textShadow: "2px 1px white",
+    //               height: "176px",
+    //               backgroundImage: `url(${Notes})`,
+    //               backgroundPosition: "cover"
+    //             }}
+    //           >
+    //             Express Note Taker
+    //           </CardTitle>
+    //           <CardText>This is a note taking app using an Express server.</CardText>
+    //           <CardActions border>
+    //             <Button>Github</Button>
+    //             <Button>Deployed</Button>
+    //           </CardActions>
+    //         </Card>
+    //         </div>
+    //     </div>
+    //   );
     } 
   }
 
@@ -236,7 +235,7 @@ export default class Audiobooks extends Component {
           ripple
         >
           <Tab  style={{color:'white'}}>Web Development <i class="fas fa-globe"></i></Tab>
-          <Tab  style={{color:'white'}}>Audio Books <i class="fab fa-audible"></i></Tab>
+          {/* <Tab  style={{color:'white'}}>Audio Books <i class="fab fa-audible"></i></Tab> */}
 
         </Tabs>
 
