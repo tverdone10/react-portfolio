@@ -20,7 +20,7 @@ const skills = [
 ];
 
 const regularSkills =
-  "React | React Native | Javascript | MongoDB | HTML/CSS | Node.js";
+  "React | React Native | Javascript | MongoDB | HTML/CSS | Node.js | Git";
 
 export default function Landing() {
   const messageArray = [...regularSkills];
