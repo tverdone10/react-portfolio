@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { Grid, Cell } from "react-mdl";
 import Profile from "../../img/profile.jpg";
+import ProfileTwo from "../../img/bwprofile.jpg";
 import Anime, { anime } from "react-anime";
 
 const skills = [
@@ -34,10 +35,10 @@ export default function Landing() {
   };
 
   return (
-    <div style={{ width: "100%", margin: "0 auto" }}>
+    <div style={{ width: "100vw", margin: "0 auto" }}>
       <Grid className="landing-grid">
         <Cell col={12}>
-          <img className="profile-img" src={Profile} />
+          <img className="profile-img" src={ProfileTwo} />
           <div className="banner-text">
             <Anime opacity={[0, 1]} duration={"2500"} easing="easeInOutQuad">
               <h1>Full Stack Web Developer</h1>

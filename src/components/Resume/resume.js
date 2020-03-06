@@ -30,21 +30,11 @@ export default function Resume() {
                 <Cell col={12}>
                     <h2>Skills</h2>
                     <hr></hr>
-                    <div className="skills-parent">
-                    <div className='skills-container'>
-                    <h4>React</h4>
-                    <h4>React-Native</h4>
-                    <h4>Javascript</h4>
-                    <h4>HTML/CSS</h4>
-                    </div>
-                    <div className='skills-container'>
-                    <h4>MongoDB</h4>
-                    <h4>Node.js</h4>
-                    <h4>MySQL</h4>
-                    <h4>Handlebars.js</h4>
 
-                    </div>
-                    </div>
+                    <p>
+                       I am a Web Developer with a diverse set of skills. I've completed the Full Stack Web Development Coding Bootcamp at UCLA Extension, and I've also done tons of self-teaching. More than anything I'm a problem finder, and a problem solver. I have years of experience working in publishing and Audio Books as well, managing work flows with narrators and publishers, and producing finished products out of nothing. 
+                   </p>
+
                 </Cell>
             </Grid>
         </div>

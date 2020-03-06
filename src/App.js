@@ -31,9 +31,9 @@ function App() {
             <a href="/Projects">
               Projects <i class="fas fa-briefcase"></i>
             </a>
-            <a href="/Resume">
+            {/* <a href="/Resume">
               Resume <i class="far fa-id-card"></i>
-            </a>
+            </a> */}
 
           </Navigation>
         </Header>
@@ -46,9 +46,9 @@ function App() {
             <a href="/Projects">
               Projects <i class="fas fa-briefcase"></i>
             </a>
-            <a href="/Resume">
+            {/* <a href="/Resume">
               Resume <i class="far fa-id-card"></i>
-            </a>
+            </a> */}
           </Navigation>
         </Drawer>
         <Content>

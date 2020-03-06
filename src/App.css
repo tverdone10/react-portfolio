@@ -19,36 +19,15 @@ a:hover {
 
 
 .header-color {
-  background: #0f2027; 
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  );
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); 
+
+  background: linear-gradient(16deg, black 3%, black 100%);  
+
 }
 
 .landing-grid {
-  background: #0f2027; 
-  background: -webkit-linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); 
-  background: linear-gradient(
-    to right,
-    #2c5364,
-    #203a43,
-    #0f2027
-  ); 
-
+  background: rgb(87,83,83);
+  background: linear-gradient(270deg, rgba(87,83,83,1) 0%, rgba(6,154,154,1) 12%);  
+  
   text-align: center;
   position: absolute;
 
@@ -64,6 +43,7 @@ a:hover {
 .banner-text {
   background-color: black;
   opacity: 0.8;
+  font-family: antonio;
   width: 75%;
   /* height: 40%; */
   margin: auto;
@@ -71,12 +51,14 @@ a:hover {
 }
 
 .banner-text h1 {
+  font-family: antonio;
   font-size: 66px;
   font-weight: bold;
   color: white;
 }
 
 .banner-text h2 {
+  font-family: antonio;
   font-size: 54px;
   font-weight: bold;
   color: white;
@@ -113,6 +95,7 @@ a:hover {
 }
 
 .profile-img {
+  filter: grayscale(100%);
   border-radius: 50%;
   height: 250px;
 }
@@ -146,11 +129,11 @@ a:hover {
 }
 
 .contact-grid h2 {
-  font-family: anton, sans-serif;
+  font-family: antonio, sans-serif;
 }
 
 .contact-grid p {
-  font-family: oxygen, sans-serif;
+  font-family: antonio, sans-serif;
 }
 
 .skills-parent {

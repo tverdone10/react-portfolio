@@ -27,7 +27,7 @@ export default class Audiobooks extends Component {
     if (this.state.activeTab === 0) {
       return (
         <div>
-          <p className="projects-description">Full Stack Web Development</p>
+          <p className="projects-description" style={{marginTop: "10px"}}>Full Stack Web Development</p>
           <div className="projects-grid">
 
             {/* CARD 1 */}
@@ -109,38 +109,13 @@ export default class Audiobooks extends Component {
               </CardActions>
             </Card>
 
-            {/* <Card
-              shadow={5}
-              style={{ minWidth: "450", margin: "auto" }}
-            >
-              <CardTitle
-                style={{
-                  color: "black",
-                  textShadow: "2px 1px white",
-                  height: "176px",
-                  backgroundImage: `url(${FullBob})`,
-                  backgroundPosition: "center"
-                }}
-              >
-                Express Note Taker
-              </CardTitle>
-              <CardText>
-                Bob's Big Break is an incremental clicker game about making
-                money and buying stuff. This project was built using a full MERN
-                stack.
-              </CardText>
-              <CardActions border>
-                <Button>Github</Button>
-                <Button>Deployed</Button>
-              </CardActions>
-            </Card> */}
           </div>
         </div>
       );
     // } else if (this.state.activeTab === 1) {
     //   return (
     //     <div>
-    //       <p className="projects-description">Independently produced hundreds of Audio Books for companies such as Tantor Audio, Recorded Books, Highbridge Audio, Bee Audio, and many more.</p>
+    //       <p className="projects-description" style ={{marginTop: '10px'}}>Independently produced hundreds of Audio Books for companies such as Tantor Audio, Recorded Books, Highbridge Audio, Bee Audio, and many more.</p>
     //        <div className="projects-grid">
     //         <Card
     //           className="card-one"
